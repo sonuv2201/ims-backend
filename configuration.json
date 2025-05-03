@@ -1,0 +1,377 @@
+{
+  "/generic-api/access-control/": {
+    "icon": "Settings",
+    "template_name": "access-controls-template",
+    "label": "Access Control"
+  },
+  "/lcnc-management/": {
+    "icon": "MonitorCog",
+    "label": "Configuration"
+  },
+  "/generic-api/groups/": {
+    "icon": "Group"
+  },
+  "/generic-api/users/": {
+    "icon": "Users"
+  },
+  "/api/customer-special-pricing-list/": {
+    "icon": "BadgePercent",
+    "label": "Customer special pricing"
+  },
+  "/api/customer-special-pricing/": {
+    "hide": true
+  },
+  "/api/dashboard-view/": {
+    "icon": "Gauge",
+    "label": "Dashboard Ver 2.0",
+    "order": 0
+  },
+  "/api/purchase/": {
+    "icon": "ShoppingCart",
+    "order": 1,
+    "url": "",
+    "hide": true
+  },
+  "/api/sales-invoice/": {
+    "icon": "ChartLine",
+    "order": 2,
+    "url": "",
+    "hide": false
+  },
+  "/api/invoice/": {
+    "icon": "ChartLine",
+    "parent": "/api/sales-invoice/",
+    "order": 2,
+    "url": "",
+    "hide": false
+  },
+  "/api/invoice-list/": {
+    "icon": "ChartLine",
+    "parent": "/api/sales-invoice/",
+    "label": "Invoice List",
+    "order": 2,
+    "hide": false
+  },
+  "/api/account/": {
+    "icon": "User",
+    "order": 3,
+    "url": "",
+    "hide": true
+  },
+  "/api/master/": {
+    "icon": "Component",
+    "url": "",
+    "order": 4
+  },
+  "/api/customer/": {
+    "parent": "/api/master/",
+    "url": "",
+    "order": 0
+  },
+  "/api/search-customer/": {
+    "parent": "/api/customer/",
+    "order": 0
+  },
+  "/api/create-customer/": {
+    "parent": "/api/customer/",
+    "label": "Add Customer",
+    "order": 1,
+    "default": true
+  },
+  "/api/customer_type/": {
+    "parent": "/api/customer/",
+    "order": 2
+  },
+  "/api/customer_group/": {
+    "parent": "/api/customer/",
+    "order": 3
+  },
+  "/api/item/": {
+    "parent": "/api/master/",
+    "url": "",
+    "order": 1
+  },
+  "/api/department/": {
+    "parent": "/api/settings/"
+  },
+  "/api/special-pricing/": {
+    "icon": "DollarSign",
+    "order": 5,
+    "url": "",
+    "hide": true
+  },
+  "/api/product-catalog/": {
+    "icon": "Barcode",
+    "order": 6,
+    "url": "",
+    "hide": true
+  },
+  "/api/smart-ordering/": {
+    "icon": "ShoppingBag",
+    "order": 7,
+    "url": "",
+    "hide": true
+  },
+  "/api/dispatch/": {
+    "icon": "Truck",
+    "order": 8,
+    "url": "",
+    "hide": true
+  },
+  "/api/message/": {
+    "icon": "Mail",
+    "order": 9,
+    "url": "",
+    "hide": true
+  },
+  "/api/reports/": {
+    "icon": "ChartColumnIncreasing",
+    "order": 10,
+    "url": "",
+    "hide": true
+  },
+  "/api/settings/": {
+    "icon": "Settings",
+    "order": 11,
+    "url": ""
+  },
+  "/api/search-tax/": {
+    "hide": true
+  },
+  "/api/special-item-price/": {
+    "hide": true
+  },
+  "/api/customer-special-pricing-item/": {
+    "hide": true
+  },
+  "/api//customer-special-pricing-item/": {
+    "hide": true
+  },
+  "/api/sec-information/": {
+    "hide": true
+  },
+  "/api/pricing-and-tax/": {
+    "hide": true
+  },
+  "/api/shipping-billing-address/": {
+    "hide": true
+  },
+  "/api/create-shipping-billing-address/": {
+    "hide": true
+  },
+  "/api/vendor-shipping-billing-address/": {
+    "hide": true
+  },
+  "/api/vender-create-pricing-and-tax/": {
+    "hide": true
+  },
+  "/api/item-vendor/": {
+    "hide": true
+  },
+  "/api/item-price/": {
+    "hide": true
+  },
+  "/api/create-vendor/": {
+    "parent": "/api/vendor/"
+  },
+  "/api/tax/": {
+    "parent": "/api/master/",
+    "order": 8
+  },
+  "/api/production_promotion/": {
+    "parent": "/api/dashboard-view/",
+    "hide": true
+  },
+  "/api/pricing-model/": {
+    "parent": "/api/settings/",
+    "hide": true
+  },
+  "/api/salesman/": {
+    "parent": "/api/settings/"
+  },
+  "/api/payment_terms/": {
+    "parent": "/api/settings/"
+  },
+  "/api/customer-company-name/": {
+    "parent": "/api/settings/",
+    "label": "Company"
+  },
+  "/api/item-management/": {
+    "parent": "/api/master/",
+    "url": "",
+    "order": 2
+  },
+  "/api/items-information/": {
+    "parent": "/api/item/",
+    "label": "Search Items",
+    "order": 0
+  },
+  "/api/create-brand/": {
+    "parent": "/api/item/",
+    "order": 3
+  },
+  "/api/add-items/": {
+    "parent": "/api/item/",
+    "order": 1
+  },
+  "/api/itemcategories/": {
+    "parent": "/api/item/",
+    "label": "Item Categories",
+    "order": 2
+  },
+  "/api/item-secondary-categories/": {
+    "parent": "/api/item/",
+    "label": "Item Secondary Categories",
+    "order": 2
+  },
+  "/api/purchase-order-item/": {
+    "parent": "/api/purchase/",
+    "url": ""
+  },
+  "/api/payment-terms/": {
+    "parent": "/api/settings/"
+  },
+  "/api/customer-type/": {
+    "parent": "/api/customer/",
+    "label": "Create Customer Type"
+  },
+  "/api/customer-group/": {
+    "parent": "/api/customer/",
+    "label": "Create Customer Group"
+  },
+  "/api/purchase-order/": {
+    "parent": "/api/purchase/",
+    "url": ""
+  },
+
+  "/api/production-promotion/": {
+    "parent": "/api/settings/"
+  },
+  "/api/address/": {
+    "parent": "/api/settings/",
+    "url": ""
+  },
+  "/api/city/": {
+    "parent": "/api/address/"
+  },
+  "/api/country/": {
+    "parent": "/api/address/"
+  },
+  "/api/state/": {
+    "parent": "/api/address/"
+  },
+  "/api/zip-code/": {
+    "parent": "/api/address/"
+  },
+  "/api/vendor/": {
+    "parent": "/api/master/",
+    "order": 4,
+    "url": ""
+  },
+  "/api/tsx/": {
+    "parent": "/api/tax/",
+    "order": 5,
+    "url": ""
+  },
+  "/api/add-tax/": {
+    "parent": "/api/tsx/",
+    "order": 0
+  },
+  "/api/search-vendor/": {
+    "parent": "/api/vendor/",
+    "order": 0
+  },
+  "/api/add-vendor/": {
+    "parent": "/api/vendor/",
+    "order": 1
+  },
+  "/api/system/": {
+    "parent": "/api/settings/",
+    "order": 1
+  },
+  "/api/sales-orders/": {
+    "hide": true
+  },
+  "/api/vendor-secondary-information/": {
+    "hide": true
+  },
+  "/api/create-pricing-and-tax/": {
+    "hide": true
+  },
+  "/api/create-sec-information/": {
+    "hide": true
+  },
+  "/api/inventories/": {
+    "hide": true
+  },
+  "/api/customers-information/": {
+    "hide": true
+  },
+  "/api/invoices/": {
+    "hide": false,
+    "parent": "/api/sales-invoice/"
+  },
+  "/api/customers-details/": {
+    "hide": true
+  },
+  "/api/inventory-items/": {
+    "hide": true
+  },
+  "/api/goods-receipt-items/": {
+    "hide": true
+  },
+  "/api/vendor-sec-information/": {
+    "hide": true
+  },
+  "/api/invoice-items/": {
+    "hide": true
+  },
+  "/api/items-details/": {
+    "hide": true
+  },
+  "/api/item-upc/": {
+    "hide": true
+  },
+  "/api/goods-receipts/": {
+    "hide": true
+  },
+  "/api/invoice-types/": {
+    "hide": true
+  },
+  "/api/item-sec-information/": {
+    "hide": true
+  },
+  "/api/goods-inward/": {
+    "hide": true
+  },
+  "/api/employees/": {
+    "hide": true
+  },
+  "/api/goods-inward-item/": {
+    "hide": true
+  },
+  "/api/order-history/": {
+    "hide": true
+  },
+  "/api/expenses/": {
+    "hide": true
+  },
+  "/api/invoice-history/": {
+    "hide": false
+  },
+  "/api/customersdetails/": {
+    "hide": true
+  },
+  "/api/item-tax/": {
+    "hide": true
+  },
+  "/api/item-cash/": {
+    "hide": true
+  },
+  "/api/itemsdetails/": {
+    "hide": true
+  },
+  "/api/item-msa-information/": {
+    "hide": true
+  }
+}
