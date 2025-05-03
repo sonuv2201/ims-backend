@@ -4,7 +4,7 @@
       "src": "nish/wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "15mb",
+        "maxLambdaSize": "500mb",
         "runtime": "python3.12.4"
       }
     }
